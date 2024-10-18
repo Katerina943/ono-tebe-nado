@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
-  max-width: 1052px;  
+  max-width: 1052px;
 }
 
 /*контейнер заголовка*/
@@ -13,11 +13,11 @@ body {
 }
 
 .header__menu {
-  display: flex;   
+  display: flex;
 }
 
 /* блок меню в заголовке */
-.header__menu-list{
+.header__menu-list {
   margin: 47px 33px 39px 26px;
 }
 
@@ -26,23 +26,23 @@ body {
   display: flex;
   list-style: circle; /* пустой кружок в списке*/
   gap: 34px;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
-  list-style: none;  
+  list-style: none;
 }
 
 .header__links-list-item_no-bullit a {
   text-decoration: none;
 }
 
-.header__logo  {
+.header__logo {
   display: block;
   justify-self: center;
   align-self: center;
   width: 137px;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .address {
@@ -80,7 +80,7 @@ body {
 }
 
 /* надпись "оно тебе надо" */
-.cover__title{
+.cover__title {
   position: relative;
   margin-top: 168px;
   margin-left: 50px;
@@ -90,6 +90,7 @@ body {
   font-size: 94px;
   line-height: 110%; /* высота строки */
   letter-spacing: 32px; /* расстояние между символами в тексте */
+  font-weight: bold;
 }
 
 /* надпись оно */
@@ -105,7 +106,7 @@ body {
 }
 
 /* слово ТЕБЕ */
-.aligned-text_center{
+.aligned-text_center {
   display: flex;
   justify-content: center; 
   margin-top: 25px;
@@ -118,25 +119,25 @@ body {
 }
 
 /*слово НАДО*/
-.aligned-text_right{
+.aligned-text_right {
   display: flex;
   justify-content: right;
-  margin-top: 18px;
+  padding-top: 18px;
   padding-right: 3px;
 }
 
 /* буква Н в слове надо*/
-.letter-spacing-extended_n{
+.letter-spacing-extended_n {
   padding-right: 35px;
 }
 
 /*последняя буква О*/
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0;
 }
 
 /* блок Подзаголовок и Кнопка*/
-.cover__description{
+.cover__description {
   color: white;
   display: inline-block;
   margin-top: 132px;
@@ -157,7 +158,6 @@ body {
   display: inline;
   color: white;
   background: transparent; /* прозрачный фон*/
-  font-size: 11px;
   border: 1px solid white; /* параметры рамки */
   font-size: 21px; 
   text-transform: uppercase;
@@ -174,7 +174,7 @@ body {
   min-width: 1052px;
   margin-top: 177px;
   margin-left: 24px;
-  margin-right: 24px;      
+  margin-right: 24px;
 }
 
  /*заголовок Лоты*/
@@ -183,7 +183,7 @@ body {
   text-transform: uppercase;
   font-size: 43px;
   font-weight: bold;
-  padding-left: 35px;   
+  padding-left: 35px;
 }
 
  /* список из 3х карточек */
@@ -209,7 +209,7 @@ align-items: stretch;
   padding-bottom: 46px;
 }
 
-.lots__card-list-item a{
+.lots__card-list-item a {
   display: flex;
   justify-content: space-between;
   min-width: 334px;
@@ -235,7 +235,7 @@ align-items: stretch;
   background-size: cover;
   background-position: center;
   color: white;
-  height: 563px;  
+  height: 563px;
 }
 
 .card_type_picture {
@@ -254,7 +254,6 @@ align-items: stretch;
   margin-left: 40px;
   font-weight: bold;
   font-size: 22px;
-  font-weight: 700;
   line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
@@ -267,7 +266,7 @@ align-items: stretch;
   line-height: 1.2;
   margin-left: 40px;
   margin-right: 40px;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .lots__look-more-link {
@@ -277,14 +276,14 @@ align-items: stretch;
 }
 
 /* Секция Логотип. ОБ аукционе*/
-.about{
+.about {
   margin-top: 182px;
   min-width: 1052px;
   height: 595px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 33px;
-  padding-left: 30px;  
+  padding-left: 30px;
 }
   
 .about__column {
@@ -318,7 +317,7 @@ align-items: stretch;
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px; 
+  gap: 25px;
 }
 
 .about__text p {
@@ -334,7 +333,7 @@ align-items: stretch;
   margin-left: 48px;
 }
 
-.footer__address__direction{
+.footer__address__direction {
   font-size: 18px;
   line-height: 1.3;
 }
