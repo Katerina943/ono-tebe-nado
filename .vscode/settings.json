@@ -1,0 +1,8 @@
+{
+  "html.format.wrapLineLength": 0,
+  "html.format.wrapAttributes": "auto",
+  "prettier.proseWrap": "preserve",
+  "workbench.editor.sharedViewState": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 200
+}
