@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
-  max-width: 1052px;
+  max-width: 1052px;  
 }
 
 /*контейнер заголовка*/
@@ -271,6 +271,7 @@ align-items: stretch;
 
 .lots__look-more-link {
   padding-top: 60px;
+  padding-left: 32px;
   font-size: 20px; 
   z-index: 5;
 }
