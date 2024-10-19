@@ -326,7 +326,6 @@ body {
   line-height: normal;
 }
 
-/* Подвал сайта */
 .footer {
   display: flex;
   justify-content: space-between;
