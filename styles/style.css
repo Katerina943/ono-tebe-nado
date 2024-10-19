@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  width: 100%;
-  max-width: 1052px;  
+  max-width: 1100px;
+  height: 3028px;
 }
 
 /*контейнер заголовка*/
@@ -108,7 +108,7 @@ body {
 /* слово ТЕБЕ */
 .aligned-text_center {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 25px;
   padding-right: 29px;
 }
@@ -149,20 +149,20 @@ body {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 22px;
-  word-spacing: 18px; 
-  margin-left: 78px
-} 
+  word-spacing: 18px;
+  margin-left: 78px;
+}
 
 /* кнопка */
 .bet-button {
   display: inline;
   color: white;
-  background: transparent; /* прозрачный фон*/
+  background: transparent;
   border: 1px solid white;
-  font-size: 21px; 
+  font-size: 21px;
   text-transform: uppercase;
   font-weight: normal;
-  padding: 15px 30px 11px 29px; /* поля вокруг текста */
+  padding: 15px 30px 11px 29px;
   letter-spacing: 1px;
   margin-left: 58px;
 }
@@ -187,16 +187,16 @@ body {
 }
 
  /* список из 3х карточек */
-.lots__card-list {
-list-style-type: none; /*отмена стиля списка*/
-padding-top: 27px;
-height: 563px;
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: center; 
-gap: 25px;
-align-items: stretch;
+.lots__card-list{
+  list-style-type: none;
+  padding-top: 27px;
+  height: 563px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  align-items: stretch;
 }
 
 .card {
@@ -272,7 +272,7 @@ align-items: stretch;
 .lots__look-more-link {
   padding-top: 60px;
   padding-left: 32px;
-  font-size: 20px; 
+  font-size: 20px;
   z-index: 5;
 }
 
