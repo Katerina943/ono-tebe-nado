@@ -187,7 +187,7 @@ body {
 }
 
  /* список из 3х карточек */
-.lots__card-list{
+.lots__card-list {
   list-style-type: none;
   padding-top: 27px;
   height: 563px;
