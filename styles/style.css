@@ -52,8 +52,7 @@ body {
 
 /* основной контейнер */
 .main {
-  width: 1100px;
-  min-height: 2735px;
+  width: 1100px;  
 }
 
 .cover {
@@ -72,7 +71,7 @@ body {
   margin-top: 168px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 137px;
+  margin-bottom: 133px;
   color: white;
   text-transform: uppercase;
   font-size: 94px;
@@ -88,27 +87,29 @@ body {
   justify-content: left;
 }
 
-/* слово ТЕБЕ */
+/* слово ТЕБ */
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  padding-top: 21px;
+  padding-top: 22px;
+  letter-spacing: 32px; 
+  padding-left: 12px;  
 }
 
-/*слово НАДО*/
+/*слово АД*/
 .aligned-text_right {
   display: flex;
   padding-top: 18px;
   justify-content: right;
 }
-
+/* O  E  Н*/
 .letter-spacing-extended {
-  padding-left: 30px;
+  padding-left: 35px;
   padding-right: 18px;
   letter-spacing: 0.6em;
 }
 
-/*последняя буква О в слове НАДО*/
+/*последняя буква O в слове НАДО*/
 .no-letter-spacing {
   letter-spacing: 0;
 }
@@ -119,8 +120,7 @@ body {
   position: relative;
   margin-bottom: 100px;
   color: white;
-  display: inline;
-  padding-bottom: 132px;
+  margin-bottom: 170px;
 }
 
 /* подзаговок Аукцион... */
@@ -142,9 +142,9 @@ body {
   font-size: 21px;
   text-transform: uppercase;
   font-weight: normal;
-  padding: 15px 30px 11px 29px;
+  padding: 15px 30px 11px 30px;
   letter-spacing: 1px;
-  margin-left: 58px;
+  margin-left: 76px;
 }
 
 /* вся секция ЛОТЫ*/
@@ -153,7 +153,7 @@ body {
   position: relative;
   height: 100%;
   min-width: 1052px;
-  padding-top: 181px;
+  padding-top: 182px;
   padding-left: 23px;
   padding-right: 24px;
 }
@@ -193,17 +193,6 @@ body {
   background-position: center;
   color: white;
   z-index: -2;
-}
-
-.lots__look-more-link {
-  display: flex;
-  justify-content: space-between;
-  min-width: 334px;
-  min-height: 563px;
-  height: 100%;
-  position: relative;
-  align-items: stretch;
-  text-decoration: none;
 }
 
 .card_type_film {
@@ -248,19 +237,21 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
-
-.lots__look-more-link {
-  padding-top: 31px;
+/* Ссылка Посмотреть больше*/
+.lots_link {
+  position: relative;
+  padding-top: 30px;
+  margin-bottom: 180px;
   padding-left: 38px;
-  font-size: 20px;
-}
+  font-size: 20px;    
+  } 
+
 
 /* Секция Логотип. ОБ аукционе*/
 .about {
-  padding-top: 182px;
+  padding-top: 182;
   padding-left: 25px;
   padding-right: 30px;
-  min-width: 1052px;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -310,12 +301,12 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 48px 80px;
+  padding: 179px 48px 80px;
 }
 
 .footer__menu {
-  padding-left: 27px;
-  line-height: 1.4em;
+  padding-left: 30px;
+  line-height: 1.2em;
   font-size: 18px;
   text-align: center;
 }
@@ -338,10 +329,7 @@ body {
 .footer__social-icon {
   width: auto;
   height: 48px;
-}
-
-.footer__menu-link_activ a {
-  text-decoration: none;
+  width: 48px;
 }
 
 .footer__social-list {
@@ -350,6 +338,3 @@ body {
   list-style: none;
 }
 
-.footer__social-icon {
-  width: 48px;
-}
