@@ -25,11 +25,12 @@ body {
   font-size: 18px;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item_activ {
   list-style: none;
 }
 
-.header__links-list-item_no-bullit a {
+/*отмена подчёркивания у активной ссылки заголовка*/
+.header_link_activ {
   text-decoration: none;
 }
 
@@ -56,7 +57,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   z-index: 0;
-  /*min-height: 757px;*/
   padding: 161px 50px 50px 50px;
 }
 
@@ -221,6 +221,12 @@ body {
   line-height: 1.2;
   margin-left: 40px;
   margin-right: 40px;
+  text-decoration: none;
+}
+
+/* отмена подчёркивания у текста в карточках */
+.card-link{
+  text-decoration: none;
 }
 
 .overlay {
@@ -307,6 +313,11 @@ body {
   list-style-type: none;
 }
 
+/*отмена подчёркивания у активной ссылки подвала*/
+.footer_link_activ {
+  text-decoration: none;
+}
+
 .footer__social-list {
   display: flex;
   gap: 48px;
@@ -314,7 +325,7 @@ body {
   padding-right: 5px;
 }
 
-.footer__social-icon {  
+.footer__social-icon {
   height: 48px;
   width: 48px;
 }
