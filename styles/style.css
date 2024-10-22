@@ -50,28 +50,20 @@ body {
   line-height: 1.3em;
 }
 
-/* основной контейнер */
-.main {
-  width: 1100px;  
-}
-
 .cover {
   position: relative;
-  padding: 1px 1px 1px 1px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   z-index: 0;
-  height: 757px;
+  /*min-height: 757px;*/
+  padding: 161px 50px 50px 50px;
 }
 
 /* h1 "оно тебе надо" */
 .cover__title {
   position: relative;
-  margin-top: 168px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 133px;
+  padding-top: 4px;
   color: white;
   text-transform: uppercase;
   font-size: 94px;
@@ -79,6 +71,7 @@ body {
   letter-spacing: 32px; /* расстояние между символами в тексте */
   font-weight: bold;
   flex-direction: column;
+  z-index: 1;
 }
 
 /* span "оно тебе надо" */
@@ -92,8 +85,8 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 22px;
-  letter-spacing: 32px; 
-  padding-left: 12px;  
+  letter-spacing: 32px;
+  padding-left: 12px;
 }
 
 /*слово АД*/
@@ -117,10 +110,9 @@ body {
 /* блок Подзаголовок и Кнопка*/
 .cover__description {
   display: block;
-  position: relative;
-  margin-bottom: 100px;
+  position: relative;  
   color: white;
-  margin-bottom: 170px;
+  padding: 136px 0 0;
 }
 
 /* подзаговок Аукцион... */
@@ -130,7 +122,7 @@ body {
   font-weight: normal;
   font-size: 22px;
   word-spacing: 18px;
-  margin-left: 78px;
+  padding-left: 29px;
 }
 
 /* кнопка */
@@ -142,7 +134,7 @@ body {
   font-size: 21px;
   text-transform: uppercase;
   font-weight: normal;
-  padding: 15px 30px 11px 30px;
+  padding: 15px 30px 11px 28px;
   letter-spacing: 1px;
   margin-left: 76px;
 }
@@ -153,7 +145,7 @@ body {
   position: relative;
   height: 100%;
   min-width: 1052px;
-  padding-top: 182px;
+  padding-top: 183px;
   padding-left: 23px;
   padding-right: 24px;
 }
@@ -192,7 +184,7 @@ body {
   background-size: cover;
   background-position: center;
   color: white;
-  z-index: -2;
+  z-index: 0;
 }
 
 .card_type_film {
@@ -240,11 +232,11 @@ body {
 /* Ссылка Посмотреть больше*/
 .lots_link {
   position: relative;
-  padding-top: 30px;
+  padding-top: 32px;
   margin-bottom: 180px;
-  padding-left: 38px;
-  font-size: 20px;    
-  } 
+  padding-left: 40px;
+  font-size: 20px;
+} 
 
 
 /* Секция Логотип. ОБ аукционе*/
@@ -315,10 +307,6 @@ body {
   list-style-type: none;
 }
 
-.footer__menu-link_active a {
-  text-decoration: none;
-}
-
 .footer__social-list {
   display: flex;
   gap: 48px;
@@ -326,15 +314,8 @@ body {
   padding-right: 5px;
 }
 
-.footer__social-icon {
-  width: auto;
+.footer__social-icon {  
   height: 48px;
   width: 48px;
-}
-
-.footer__social-list {
-  display: flex;
-  gap: 48px;
-  list-style: none;
 }
 
